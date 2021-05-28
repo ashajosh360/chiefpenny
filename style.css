@@ -1,3 +1,29 @@
 img {
     width: 100%;
   }
+
+
+  @media screen and (max-width: 767px){   
+    #main-img{      
+        content:url("./img/3_png\ by\ uixNinja.png");
+    } 
+}
+
+
+@media (min-width: 992px){      
+      #main-img{        
+          content:url("img/desktop_homepage.jpg");  
+      } 
+}
+@media (min-width: 1200px) {    
+     #main-img{         
+         content:url("./img/Smart\ Investment\ Manager\ Service\ Website.png");   
+     } 
+}
+
+
+@media (min-width: 1200px) {    
+    #main-img{         
+        content:url("img/desktop_homepage.jpg");   
+    } 
+}
